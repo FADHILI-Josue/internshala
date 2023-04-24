@@ -67,3 +67,97 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.text-sm{
+  font-size: 30px;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 20px;
+  padding: 30px;
+  background-color: #213547;
+  /* background */
+}
+.sideNav{
+  display: none;
+}
+.navbar > .navlinks:hover{
+  background-color: #646cff;
+  color: white;
+}
+.navleft > .navlinks{
+  border: #535bf2 solid;
+  margin: 0 4px;
+  padding: 7px;
+  border-radius: 9px;
+}
+.navleft > .navlinks:hover{
+  background-color: white;
+  color: #535bf2;
+}
+@media screen and (max-width: 836px){
+  .navleft {
+    display: none;
+    background-color: red;
+  }
+  .sideNav{
+    display: flex;
+    flex-direction: column;
+    border: red;
+    width: 80px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  width: 200px;
+  }
+  .sideNav > button{
+    width: 50px;
+    height:50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sideNav > button:hover{
+    transition: all .3s;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  .sideNav > .navlinks{
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+  }
+  .sideNav > .navlinks:hover{
+    background-color: #646cff;
+    color: white;
+    transition: all .3s;
+  }
+}
+
+.menu{
+  padding: 7px 20px;
+  border-radius: 9px;
+  border: 2px solid #535bf2;
+}
+.menu:hover{
+  background-color: #535bf2;
+  color: white;
+  transition: all .3s;
+}
+
+.table{
+  margin-top: 60px;
+}
+
+

@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+
+table{
+  background-color: beige;
+  color: black;
+  min-width: 80vw;
+}
+table > tr:nth-child(2n+3){
+  background-color: rgb(183, 233, 244);
+}
+table tr >td{
+  padding: 1px;
+}
