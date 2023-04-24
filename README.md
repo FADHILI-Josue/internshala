@@ -29,4 +29,3 @@ Instructions on how to use your project, including examples and screenshots if a
 
 ###Contact
 whatsapp number: +250736245179
-facebook: 
