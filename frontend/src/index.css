@@ -80,10 +80,11 @@ button:focus-visible {
   justify-content: space-between;
   margin: 3px 20px;
   padding: 30px;
-  background-color: #213547;
-  /* background */
 }
 .sideNav{
+  display: none;
+}
+.menu{
   display: none;
 }
 .navbar > .navlinks:hover{
@@ -95,6 +96,7 @@ button:focus-visible {
   margin: 0 4px;
   padding: 7px;
   border-radius: 9px;
+  background-color: #213547;
 }
 .navleft > .navlinks:hover{
   background-color: white;
@@ -104,6 +106,9 @@ button:focus-visible {
   .navleft {
     display: none;
     background-color: red;
+  }
+  .menu{
+    display: block;
   }
   .sideNav{
     display: flex;
