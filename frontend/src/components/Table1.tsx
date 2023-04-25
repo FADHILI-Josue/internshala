@@ -11,7 +11,7 @@ interface Table1Props {
 const Table1: FC<Table1Props> = ({data}) => {
 console.log(data)
   return <div className='table'>
-    <h1 className='text-sm'>Users with income less than $5 with cars like BMW of mercedes</h1>
+    <h1 className='text-sm'>Users with income less than $5 with cars like BMW or mercedes</h1>
     <table border={2} cellPadding={0} cellSpacing={0}>
       <tr>
         <th colSpan={10}>Users with income less than $5 with cars like BMW of mercedes</th>

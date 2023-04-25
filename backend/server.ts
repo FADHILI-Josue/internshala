@@ -35,7 +35,7 @@ class connection{
     }
     public initializeRoutes() {
         this.app.use("/api/user", router);
-        this.app.get('api/data/pushDataOnce', async(req:Request, res:Response)=>{
+        this.app.get('/api/data/pushDataOnce', async(req:Request, res:Response)=>{
             try {
                 // User.insertMany(data)
                 // console.log(data)
