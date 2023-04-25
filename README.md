@@ -9,8 +9,7 @@ step4: run command "npm run dev" on both backend and frontend folders<br/>
 License
 MIT licence
 <br/>
-<h3>Usage</h3>
-<br/>
+
 !! server is not hosted you can run the server on your local machine
 
 <h3>APIS DESCRIPTION</h3>:
